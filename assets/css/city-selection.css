@@ -1,0 +1,895 @@
+/* استایل‌های عمومی */
+.city-selector-admin {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.city-type-selector {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 6px;
+    border-left: 4px solid #0073aa;
+}
+
+.city-type-selector h4 {
+    margin: 0 0 10px 0;
+    color: #23282d;
+    font-size: 14px;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    cursor: pointer;
+    font-size: 13px;
+    position: relative;
+    padding-right: 25px;
+}
+
+.radio-label input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.radio-custom {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.radio-label input[type="radio"]:checked~.radio-custom {
+    background-color: #0073aa;
+    border-color: #0073aa;
+}
+
+.radio-label input[type="radio"]:checked~.radio-custom:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: white;
+}
+
+/* تب‌های ادمین */
+.admin-tabs {
+    display: flex;
+    background: #f1f1f1;
+    border-radius: 6px;
+    padding: 3px;
+    margin-bottom: 20px;
+}
+
+.admin-tab-button {
+    flex: 1;
+    background: transparent;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 13px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.admin-tab-button:hover {
+    background: rgba(0, 115, 170, 0.1);
+    color: #0073aa;
+}
+
+.admin-tab-button.active {
+    background: #0073aa;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 115, 170, 0.3);
+}
+
+.admin-tab-content {
+    display: none;
+    background: #fafafa;
+    border-radius: 6px;
+    padding: 15px;
+    min-height: 300px;
+}
+
+.admin-tab-content.active {
+    display: block;
+}
+
+/* جستجو */
+.search-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 13px;
+    background: white;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #0073aa;
+    box-shadow: 0 0 0 2px rgba(0, 115, 170, 0.1);
+}
+
+.search-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    font-size: 16px;
+}
+
+/* لیست‌ها */
+.items-list {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+}
+
+.province-item {
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s ease;
+}
+
+.province-item:last-child {
+    border-bottom: none;
+}
+
+.province-item:hover {
+    background-color: #f9f9f9;
+}
+
+.province-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 15px;
+}
+
+.province-checkbox-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    flex: 1;
+}
+
+.province-checkbox-label input[type="checkbox"] {
+    margin-left: 8px;
+}
+
+.province-name {
+    font-weight: 500;
+    color: #23282d;
+}
+
+.cities-count {
+    color: #666;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.view-cities-btn {
+    background: #0073aa;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.view-cities-btn:hover {
+    background: #005a87;
+}
+
+/* شهرها */
+.city-item {
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s ease;
+}
+
+.city-item:last-child {
+    border-bottom: none;
+}
+
+.city-item:hover {
+    background-color: #f9f9f9;
+}
+
+.city-checkbox-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.city-checkbox-label input[type="checkbox"] {
+    margin-left: 8px;
+}
+
+.city-name {
+    font-weight: 500;
+    color: #23282d;
+}
+
+.city-slug {
+    color: #666;
+    font-size: 11px;
+    margin-right: 8px;
+    font-family: monospace;
+}
+
+/* ناوبری */
+.navigation-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.back-button {
+    background: #666;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.back-button:hover {
+    background: #555;
+}
+
+/* شهرهای انتخاب شده */
+.selected-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.selected-header h4 {
+    margin: 0;
+    color: #23282d;
+}
+
+.clear-button {
+    background: #dc3232;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.clear-button:hover {
+    background: #c62d2d;
+}
+
+.selected-items-list {
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+.selected-city-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    transition: all 0.2s ease;
+}
+
+.selected-city-item:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.selected-city-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.selected-city-name {
+    font-weight: 500;
+    color: #23282d;
+    font-size: 13px;
+}
+
+.selected-province-name {
+    color: #666;
+    font-size: 11px;
+}
+
+.remove-city-btn {
+    background: #dc3232;
+    color: white;
+    border: none;
+    padding: 4px 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.remove-city-btn:hover {
+    background: #c62d2d;
+}
+
+.no-selection {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+/* استایل‌های پاپ‌آپ */
+.city-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+}
+
+.city-popup-content {
+    background: white;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    max-height: 80vh;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.city-popup-header {
+    background: linear-gradient(135deg, #0073aa, #005a87);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city-popup-header h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.city-popup-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+}
+
+.city-popup-close:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.city-popup-body {
+    padding: 20px;
+    max-height: 50vh;
+    overflow-y: auto;
+}
+
+.city-selection-tabs {
+    display: flex;
+    background: #f1f1f1;
+    border-radius: 8px;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    flex: 1;
+    background: transparent;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.tab-button:hover {
+    background: rgba(0, 115, 170, 0.1);
+    color: #0073aa;
+}
+
+.tab-button.active {
+    background: #0073aa;
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 115, 170, 0.3);
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.search-box {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 12px 45px 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    background: white;
+}
+
+.search-box input:focus {
+    outline: none;
+    border-color: #0073aa;
+    box-shadow: 0 0 0 3px rgba(0, 115, 170, 0.1);
+}
+
+.search-box .search-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+.cities-list {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: white;
+}
+
+.city-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s ease;
+}
+
+.city-item:last-child {
+    border-bottom: none;
+}
+
+.city-item:hover {
+    background-color: #f9f9f9;
+}
+
+.province-name,
+.city-name {
+    font-weight: 500;
+    color: #23282d;
+}
+
+.select-province-btn,
+.select-city-btn {
+    background: #0073aa;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.2s ease;
+}
+
+.select-province-btn:hover,
+.select-city-btn:hover {
+    background: #005a87;
+}
+
+.back-button-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.current-province {
+    font-weight: 500;
+    color: #0073aa;
+}
+
+.city-popup-footer {
+    background: #f9f9f9;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+.popup-description {
+    color: #666;
+    margin: 0 0 15px 0;
+    font-size: 13px;
+}
+
+.skip-button {
+    background: #666;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background-color 0.2s ease;
+}
+
+.skip-button:hover {
+    background: #555;
+}
+
+.city-success-message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #46b450;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 6px;
+    z-index: 1000000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .city-popup-content {
+        width: 95%;
+        margin: 10px;
+    }
+
+    .city-popup-header {
+        padding: 15px;
+    }
+
+    .city-popup-body {
+        padding: 15px;
+    }
+
+    .admin-tabs {
+        flex-direction: column;
+    }
+
+    .admin-tab-button {
+        margin-bottom: 2px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.city-selector-container {
+    font-family: inherit;
+}
+
+.city-type-selection {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.city-type-selection label {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+#city-selection-area {
+    margin-top: 15px;
+}
+
+/* Two-column Layout */
+.meta-box-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    /* RTL support */
+    gap: 20px;
+}
+
+.selection-panel {
+    flex: 3;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background-color: #fff;
+    min-width: 0;
+    /* Fix for flexbox overflow */
+}
+
+.summary-panel {
+    flex: 2;
+    max-width: 300px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background-color: var(--panel-bg);
+    align-self: flex-start;
+    /* Stick to top */
+    position: sticky;
+    top: 50px;
+    /* Adjust as needed for admin bar */
+}
+
+.panel-header {
+    padding: 10px 15px;
+    border-bottom: 1px solid var(--border-color);
+    background-color: #f5f5f5;
+}
+
+.summary-panel .panel-header h3 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.panel-body {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+/* Selection Panel (Right) */
+#city-search {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.loading-placeholder,
+.error-placeholder {
+    padding: 20px;
+    text-align: center;
+    color: var(--secondary-text);
+}
+
+.error-placeholder {
+    color: var(--danger-color);
+}
+
+.province-item {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.province-item:last-child {
+    border-bottom: none;
+}
+
+.province-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    user-select: none;
+}
+
+.province-header:hover {
+    background-color: var(--hover-bg);
+}
+
+.province-header input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.province-name {
+    font-weight: 600;
+    color: var(--text-color);
+    flex-grow: 1;
+}
+
+.province-count {
+    font-size: 12px;
+    color: var(--secondary-text);
+    margin-right: 15px;
+}
+
+.toggle-arrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #888;
+    transition: transform 0.2s ease-in-out;
+}
+
+.province-header.open .toggle-arrow {
+    transform: rotate(180deg);
+}
+
+.cities-in-province {
+    background-color: #fdfdfd;
+    border-top: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.city-item {
+    padding: 5px 35px 5px 15px;
+    /* RTL padding */
+}
+
+.city-item label {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size: 13px;
+    color: #444;
+    cursor: pointer;
+}
+
+.city-item input[type="checkbox"] {
+    margin-left: 8px;
+}
+
+.city-item:hover {
+    background-color: var(--hover-bg);
+}
+
+/* Summary Panel (Left) */
+.summary-panel .panel-body {
+    padding: 15px;
+    max-height: 440px;
+}
+
+.summary-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#selected-count-wrapper {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+#selected-count-wrapper #selected-count {
+    font-size: 16px;
+}
+
+#clear-all-selections {
+    font-size: 12px;
+    color: var(--danger-color);
+    border-color: var(--danger-color);
+    background: transparent;
+    cursor: pointer;
+}
+
+#clear-all-selections:hover {
+    background-color: var(--danger-color);
+    color: #fff;
+}
+
+#selected-cities-list .no-selection {
+    color: var(--secondary-text);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.selected-city-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.selected-city-info .selected-city-name {
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.selected-city-info .selected-province-name {
+    font-size: 11px;
+    color: var(--secondary-text);
+    margin-right: 5px;
+}
+
+.remove-city {
+    background: none;
+    border: none;
+    color: var(--secondary-text);
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.remove-city:hover {
+    color: var(--danger-color);
+}
+
+#city-selection-popup {
+    display: none;
+}

@@ -1,0 +1,579 @@
+{
+  "اردبیل": {
+    "english": "Ardabil",
+    "cities": {
+      "اردبیل": "Ardabil",
+      "اصلاندوز": "Aslanduz",
+      "آبی بیگلو": "Abi-Beygloo",
+      "بیله سوار": "Bileh-Savar",
+      "پارس آباد": "Parsabad",
+      "تازه کند": "Tazeh-Kand",
+      "تازه کندانگوت": "Tazeh-Kand-Angut",
+      "جعفرآباد": "Jafarabad",
+      "خلخال": "Khalkhal",
+      "رضی": "Razi",
+      "سرعین": "Sarein",
+      "عنبران": "Anbaran",
+      "فخرآباد": "Fakhrabad",
+      "کلور": "Kalur",
+      "کوراییم": "Koraim",
+      "گرمی": "Germi",
+      "گیوی": "Givi",
+      "لاهرود": "Lahrood",
+      "مرادلو": "Moradloo",
+      "مشگین شهر": "Meshgin-Shahr",
+      "نمین": "Namin",
+      "نیر": "Nir",
+      "هشتجین": "Hashtjin",
+      "هیر": "Hir"
+    }
+  },
+  "اصفهان": {
+    "english": "Isfahan",
+    "cities": {
+      "اصفهان": "Isfahan",
+      "آران وبیدگل": "Aran-va-Bidgol",
+      "اردستان": "Ardestan",
+      "برخوار": "Borkhar",
+      "تیران وکرون": "Tiran-va-Karvan",
+      "چادگان": "Chadegan",
+      "خمینی شهر": "Khomeini-Shahr",
+      "خوانسار": "Khvansar",
+      "خور وبیابانک": "Khur-va-Biabanak",
+      "دهاقان": "Dehaghan",
+      "سمیرم": "Semirom",
+      "شاهین شهر ومیمه": "Shahin-Shahr-va-Meimeh",
+      "شهرضا": "Shahreza",
+      "فریدن": "Fereydun",
+      "فریدونشهر": "Fereydunshahr",
+      "فلاورجان": "Falavarjan",
+      "کاشان": "Kashan",
+      "گلپایگان": "Golpayegan",
+      "لنجان": "Lenjan",
+      "مبارکه": "Mobarakeh",
+      "نائین": "Naein",
+      "نجف آباد": "Najafabad",
+      "نطنز": "Natanz"
+    }
+  },
+  "البرز": {
+    "english": "Alborz",
+    "cities": {
+      "کرج": "Karaj",
+      "اشتهارد": "Eshtehard",
+      "آسارا": "Asara",
+      "طالقان": "Taleghan",
+      "نظرآباد": "Nazarabad",
+      "هشتگرد": "Hashtgerd",
+      "ماهدشت": "Mahdasht",
+      "کمالشهر": "Kamalshahr",
+      "محمدشهر": "Mohammadshahr",
+      "فردیس": "Fardis"
+    }
+  },
+  "ایلام": {
+    "english": "Ilam",
+    "cities": {
+      "ایلام": "Ilam",
+      "آبدانان": "Abdanan",
+      "ایوان": "Ivan",
+      "بدره": "Badreh",
+      "دره شهر": "Darrehshahr",
+      "دهلران": "Dehloran",
+      "سرابله": "Sirvan",
+      "ملکشاهی": "Malekshahi",
+      "مهران": "Mehran",
+      "هلیلان": "Helilan"
+    }
+  },
+  "بوشهر": {
+    "english": "Bushehr",
+    "cities": {
+      "بوشهر": "Bushehr",
+      "تنگستان": "Tangestan",
+      "جم": "Jam",
+      "دشتستان": "Dashtestan",
+      "دشتی": "Dashti",
+      "دیر": "Deyr",
+      "دیلم": "Deylam",
+      "عسلویه": "Asalouyeh",
+      "کنگان": "Kangan",
+      "گناوه": "Genaveh"
+    }
+  },
+  "تهران": {
+    "english": "Tehran",
+    "cities": {
+      "تهران": "Tehran",
+      "اسلامشهر": "Eslamshahr",
+      "پاکدشت": "Pakdasht",
+      "پردیس": "Pardis",
+      "پیشوا": "Pishva",
+      "تجریش": "Tajrish",
+      "دماوند": "Damavand",
+      "رباط کریم": "Robat-Karim",
+      "ری": "Rey",
+      "شمیرانات": "Shemiranat",
+      "شهریار": "Shahriar",
+      "فیروزکوه": "Firuzkuh",
+      "قدس": "Qods",
+      "ملارد": "Malard",
+      "ورامین": "Varamin"
+    }
+  },
+  "آذربایجان شرقی": {
+    "english": "East-Azerbaijan",
+    "cities": {
+      "تبریز": "Tabriz",
+      "اسکو": "Osku",
+      "اهر": "Ahar",
+      "بستان آباد": "Bostanabad",
+      "بناب": "Bonab",
+      "تسوج": "Tasuj",
+      "جلفا": "Jolfa",
+      "چاراویماق": "Charaymaq",
+      "خداآفرین": "Khodaafarin",
+      "سراب": "Sarab",
+      "شبستر": "Shabestar",
+      "عجب شیر": "Ajabshir",
+      "کلیبر": "Kalibar",
+      "مراغه": "Maragheh",
+      "مرند": "Marand",
+      "ملکان": "Malakan",
+      "میانه": "Mianeh",
+      "ورزقان": "Varzaqan",
+      "هریس": "Heris",
+      "هشترود": "Hashtrud"
+    }
+  },
+  "آذربایجان غربی": {
+    "english": "West-Azerbaijan",
+    "cities": {
+      "ارومیه": "Urmia",
+      "اشنویه": "Oshnavieh",
+      "بوکان": "Bukan",
+      "پلدشت": "Poldasht",
+      "پیرانشهر": "Piranshahr",
+      "تکاب": "Tekab",
+      "چالدران": "Chaldoran",
+      "خوی": "Khoy",
+      "سردشت": "Sardasht",
+      "سلماس": "Salmas",
+      "شاهین دژ": "Shahin-Dezh",
+      "شوط": "Shut",
+      "ماکو": "Maku",
+      "مهاباد": "Mahabad",
+      "میاندوآب": "Miandoab",
+      "نقده": "Naghadeh"
+    }
+  },
+  "چهارمحال وبختیاری": {
+    "english": "Chaharmahal-and-Bakhtiari",
+    "cities": {
+      "شهرکرد": "Shahrekord",
+      "اردل": "Ardal",
+      "بروجن": "Brojen",
+      "فارسان": "Farsan",
+      "کوهرنگ": "Kuhrang",
+      "کیار": "Kiar",
+      "لردگان": "Lordegan",
+      "بن": "Ben",
+      "سامان": "Saman",
+      "طاقانک": "Taghanak"
+    }
+  },
+  "فارس": {
+    "english": "Fars",
+    "cities": {
+      "شیراز": "Shiraz",
+      "آباده": "Abadeh",
+      "ارسنجان": "Arsanjan",
+      "استهبان": "Estahban",
+      "اقلید": "Eqlid",
+      "بوانات": "Bavanat",
+      "پاسارگاد": "Pasargad",
+      "جهرم": "Jahrom",
+      "خرامه": "Kharameh",
+      "خنج": "Khonj",
+      "داراب": "Darab",
+      "رستم": "Rostam",
+      "زرین دشت": "Zarrin-Dasht",
+      "سپیدان": "Sepidan",
+      "فراشبند": "Farashband",
+      "فسا": "Fasa",
+      "فیروزآباد": "Firuzabad",
+      "قیر وکارزین": "Qir-va-Karzin",
+      "کازرون": "Kazerun",
+      "لارستان": "Larestan",
+      "لامرد": "Lamerd",
+      "مرودشت": "Marvdasht",
+      "ممسنی": "Mamasani",
+      "مهر": "Mehr",
+      "نی ریز": "Neyriz"
+    }
+  },
+  "گیلان": {
+    "english": "Gilan",
+    "cities": {
+      "رشت": "Rasht",
+      "آستارا": "Astara",
+      "آستانه اشرفیه": "Astaneh-Ashrafiyeh",
+      "املش": "Amlash",
+      "بندرانزلی": "Bandar-Anzali",
+      "تالش": "Talesh",
+      "رودبار": "Rudbar",
+      "رودسر": "Rudsar",
+      "سیاهکل": "Siahkal",
+      "شفت": "Shaft",
+      "صومعه سرا": "Sowme'eh-Sara",
+      "فومن": "Fuman",
+      "لاهیجان": "Lahijan",
+      "لنگرود": "Langarud",
+      "ماسال": "Masal",
+      "منجیل": "Manjil",
+      "رضوانشهر": "Rezvanshahr"
+    }
+  },
+  "گلستان": {
+    "english": "Golestan",
+    "cities": {
+      "گرگان": "Gorgan",
+      "آزادشهر": "Azadshahr",
+      "آق قلا": "Aq-Qala",
+      "بندرگز": "Bandar-Gaz",
+      "بندرترکمن": "Bandar-Torkaman",
+      "رامیان": "Ramian",
+      "علی آباد کتول": "Aliabad-Katool",
+      "کردکوی": "Kordkuy",
+      "کلاله": "Kalaleh",
+      "گمیشان": "Gomishan",
+      "مراوه تپه": "Maraveh-Tappeh",
+      "مینودشت": "Minudasht"
+    }
+  },
+  "همدان": {
+    "english": "Hamadan",
+    "cities": {
+      "همدان": "Hamadan",
+      "اسدآباد": "Asadabad",
+      "بهار": "Bahar",
+      "تویسرکان": "Tuyserkan",
+      "رزن": "Razan",
+      "کبودرآهنگ": "Kaboodarahang",
+      "ملایر": "Malayer",
+      "نهاوند": "Nahavand",
+      "فامنین": "Famenin"
+    }
+  },
+  "هرمزگان": {
+    "english": "Hormozgan",
+    "cities": {
+      "بندرعباس": "Bandar-Abbas",
+      "آبموسی": "Abumusa",
+      "بندرلنگه": "Bandar-Lengeh",
+      "بشاگرد": "Bashagard",
+      "پارسیان": "Parsian",
+      "جاسک": "Jask",
+      "حاجی آباد": "Hajiabad",
+      "خمیر": "Khamir",
+      "رودان": "Rudan",
+      "سیریک": "Sirik",
+      "قشم": "Qeshm",
+      "کیش": "Kish",
+      "گاوبندی": "Gavbandi",
+      "میناب": "Minab"
+    }
+  },
+  "کرمان": {
+    "english": "Kerman",
+    "cities": {
+      "کرمان": "Kerman",
+      "انار": "Anar",
+      "بافت": "Baft",
+      "بردسیر": "Bardsir",
+      "بم": "Bam",
+      "جیرفت": "Jiroft",
+      "راور": "Ravar",
+      "رفسنجان": "Rafsanjan",
+      "زرند": "Zarand",
+      "سیرجان": "Sirjan",
+      "شهربابک": "Shahrbabak",
+      "عنبرآباد": "Anbarabad",
+      "فهرج": "Fahraj",
+      "قلعه گنج": "Qaleh-Ganj",
+      "کوهبنان": "Kuhbanan",
+      "کهنوج": "Kahnuj",
+      "منوجان": "Manoojan",
+      "نرماشیر": "Narmashir"
+    }
+  },
+  "کرمانشاه": {
+    "english": "Kermanshah",
+    "cities": {
+      "کرمانشاه": "Kermanshah",
+      "اسلام آباد غرب": "Eslamabad-Gharb",
+      "پاوه": "Paveh",
+      "ثلاث باباجانی": "Salas-Babajani",
+      "جوانرود": "Javanrud",
+      "دالاهو": "Dalahu",
+      "روانسر": "Ravansar",
+      "سرپل ذهاب": "Sarpol-Zahab",
+      "سنقر": "Sonqor",
+      "صحنه": "Sahneh",
+      "قصر شیرین": "Qasr-Shirin",
+      "کنگاور": "Kangavar",
+      "گیلان غرب": "Gilan-Gharb",
+      "هرسین": "Harsin"
+    }
+  },
+  "کهگیلویه وبویراحمد": {
+    "english": "Kohgiluyeh-and-Boyer-Ahmad",
+    "cities": {
+      "یاسوج": "Yasuj",
+      "بویراحمد": "Boyer-Ahmad",
+      "دهدشت": "Dehdasht",
+      "دوگنبدان": "Dogonbadan",
+      "سی سخت": "Sisakht",
+      "چرام": "Charam",
+      "لنده": "Lendeh",
+      "لیکک": "Likak",
+      "مارگون": "Margoon"
+    }
+  }
+,
+  "کردستان": {
+    "english": "Kurdistan",
+    "cities": {
+      "سنندج": "Sanandaj",
+      "بانه": "Baneh",
+      "بیجار": "Bijar",
+      "دیواندره": "Divandarreh",
+      "سروآباد": "Sarvabad",
+      "سقز": "Saqqez",
+      "قروه": "Qorveh",
+      "کامیاران": "Kamyaran",
+      "مریوان": "Marivan"
+    }
+  },
+  "لرستان": {
+    "english": "Lorestan",
+    "cities": {
+      "خرم آباد": "Khorramabad",
+      "الیگودرز": "Aligudarz",
+      "ازنا": "Azna",
+      "بروجرد": "Borujerd",
+      "پل دختر": "Pol-Dokhtar",
+      "دورود": "Dorud",
+      "دلفان": "Delfan",
+      "سلسله": "Selseleh",
+      "کوهدشت": "Kuhdasht",
+      "رومشکان": "Rumeshkan"
+    }
+  },
+  "مازندران": {
+    "english": "Mazandaran",
+    "cities": {
+      "ساری": "Sari",
+      "آمل": "Amol",
+      "بابل": "Babol",
+      "بابلسر": "Babolsar",
+      "بهشهر": "Behshahr",
+      "تنکابن": "Tonekabon",
+      "جویبار": "Juybar",
+      "چالوس": "Chalous",
+      "رامسر": "Ramsar",
+      "سوادکوه": "Savadkuh",
+      "فریدونکنار": "Fereydunkenar",
+      "قائم شهر": "Qaem-Shahr",
+      "کلاردشت": "Kelardasht",
+      "محمودآباد": "Mahmudabad",
+      "میاندرود": "Miandorud",
+      "نکا": "Neka",
+      "نور": "Nur",
+      "نوشهر": "Nowshahr"
+    }
+  },
+  "مرکزی": {
+    "english": "Markazi",
+    "cities": {
+      "اراک": "Arak",
+      "آشتیان": "Ashtian",
+      "تفرش": "Tafresh",
+      "خمین": "Khomein",
+      "خنداب": "Khondab",
+      "دلیجان": "Delijan",
+      "زرندیه": "Zarandieh",
+      "ساوه": "Saveh",
+      "شازند": "Shazand",
+      "کمیجان": "Komijan",
+      "محلات": "Mahallat"
+    }
+  },
+  "خراسان رضوی": {
+    "english": "Khorasan-Razavi",
+    "cities": {
+      "مشهد": "Mashhad",
+      "بجستان": "Bajestan",
+      "بردسکن": "Bardaskan",
+      "بینالود": "Binalood",
+      "تایباد": "Taybad",
+      "تربت جام": "Torbat-Jam",
+      "تربت حیدریه": "Torbat-Heydariyeh",
+      "چناران": "Chenaran",
+      "خلیل آباد": "Khalilabad",
+      "خواف": "Khvaf",
+      "درگز": "Dargaz",
+      "رشتخوار": "Rashtkhvar",
+      "سبزوار": "Sabzevar",
+      "سرخس": "Sarakhs",
+      "فریمان": "Fariman",
+      "فیروزه": "Firuzeh",
+      "قوچان": "Quchan",
+      "کاشمر": "Kashmar",
+      "کلات": "Kalat",
+      "گناباد": "Gonabad",
+      "مه ولات": "Mahvelat",
+      "نیشابور": "Neyshabur"
+    }
+  },
+  "خراسان شمالی": {
+    "english": "North-Khorasan",
+    "cities": {
+      "بجنورد": "Bojnurd",
+      "اسفراین": "Esfarayen",
+      "جاجرم": "Jajarm",
+      "راز وجرگلان": "Raz-va-Jargalan",
+      "شیروان": "Shirvan",
+      "فاروج": "Faruj",
+      "مانه وسملقان": "Maneh-va-Samalqan"
+    }
+  },
+  "خراسان جنوبی": {
+    "english": "South-Khorasan",
+    "cities": {
+      "بیرجند": "Birjand",
+      "بشرویه": "Boshruyeh",
+      "درمیان": "Darmian",
+      "زیرکوه": "Zirkuh",
+      "سرایان": "Sarayan",
+      "سربیشه": "Sarbisheh",
+      "طبس": "Tabas",
+      "فردوس": "Ferdows",
+      "قاینات": "Qaen",
+      "نهبندان": "Nehbandan"
+    }
+  },
+  "خوزستان": {
+    "english": "Khuzestan",
+    "cities": {
+      "اهواز": "Ahvaz",
+      "آبادان": "Abadan",
+      "اندیمشک": "Andimeshk",
+      "ایذه": "Izeh",
+      "باغ ملک": "Bagh-Malek",
+      "بندر ماهشهر": "Bandar-Mahshahr",
+      "بهبهان": "Behbahan",
+      "خرمشهر": "Khorramshahr",
+      "دزفول": "Dezful",
+      "رامشیر": "Ramshir",
+      "شادگان": "Shadegan",
+      "شوش": "Shush",
+      "شوشتر": "Shushtar",
+      "گتوند": "Gotvand",
+      "لالی": "Lali",
+      "مسجدسلیمان": "Masjed-Soleyman",
+      "هندیجان": "Hendijan",
+      "هویزه": "Hoveyzeh"
+    }
+  },
+  "زنجان": {
+    "english": "Zanjan",
+    "cities": {
+      "زنجان": "Zanjan",
+      "ابهر": "Abhar",
+      "ایجرود": "Ijrud",
+      "خدابنده": "Khodabandeh",
+      "خرمدره": "Khorramdarreh",
+      "طارم": "Tarom",
+      "ماهنشان": "Mahneshan"
+    }
+  },
+  "سمنان": {
+    "english": "Semnan",
+    "cities": {
+      "سمنان": "Semnan",
+      "آرادان": "Aradan",
+      "دامغان": "Damghan",
+      "شاهرود": "Shahrood",
+      "گرمسار": "Garmsar",
+      "مهدی شهر": "Mahdi-Shahr",
+      "میامی": "Miami"
+    }
+  },
+  "سیستان وبلوچستان": {
+    "english": "Sistan-and-Baluchestan",
+    "cities": {
+      "زاهدان": "Zahedan",
+      "ایرانشهر": "Iranshahr",
+      "چابهار": "Chabahar",
+      "خاش": "Khash",
+      "دلگان": "Delgan",
+      "راسک": "Rask",
+      "زابل": "Zabol",
+      "زهک": "Zahak",
+      "سراوان": "Saravan",
+      "سرباز": "Sarbaz",
+      "فنوج": "Fanuj",
+      "قصرقند": "Qasrqand",
+      "کنارک": "Konarak",
+      "مهرستان": "Mehrestan",
+      "نیک شهر": "Nikshahr",
+      "نیمروز": "Nimrooz",
+      "هامون": "Hamun",
+      "هیرمند": "Hirmand"
+    }
+  },
+  "قزوین": {
+    "english": "Qazvin",
+    "cities": {
+      "قزوین": "Qazvin",
+      "آبیک": "Abyek",
+      "البرز": "Alborz",
+      "بوئین زهرا": "Buin-Zahra",
+      "تاکستان": "Takestan"
+    }
+  },
+  "قم": {
+    "english": "Qom",
+    "cities": {
+      "قم": "Qom",
+      "جعفریه": "Jafarieh",
+      "دستجرد": "Dastjerd",
+      "سلفچگان": "Salafchegan",
+      "قنوات": "Qanavat"
+    }
+  },
+  "یزد": {
+    "english": "Yazd",
+    "cities": {
+      "یزد": "Yazd",
+      "ابرکوه": "Abarkooh",
+      "اردکان": "Ardakan",
+      "اشکذر": "Ashkazar",
+      "بافق": "Bafq",
+      "بهاباد": "Bahabad",
+      "تفت": "Taft",
+      "خضرآباد": "Khezrabad",
+      "زارچ": "Zarch",
+      "شاهدیه": "Shahediyeh",
+      "صدوق": "Sadooghi",
+      "طبس": "Tabas",
+      "عقدا": "Aghda",
+      "مروست": "Maravast",
+      "مهریز": "Mehriz",
+      "میبد": "Meybod",
+      "ندوشن": "Nodooshan",
+      "هرات": "Herat"
+    }
+  }
+}
